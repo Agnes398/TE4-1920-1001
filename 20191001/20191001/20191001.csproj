@@ -61,6 +61,12 @@
     <Compile Include="RegBil.Designer.cs">
       <DependentUpon>RegBil.cs</DependentUpon>
     </Compile>
+    <Compile Include="VisaBil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisaBil.Designer.cs">
+      <DependentUpon>VisaBil.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

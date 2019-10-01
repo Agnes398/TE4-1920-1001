@@ -27,5 +27,11 @@ namespace _20191001
             RegBil MyRegBilForm = new RegBil();
             MyRegBilForm.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            VisaBil MyVisaBilForm = new VisaBil();
+            MyVisaBilForm.ShowDialog();
+        }
     }
 }
