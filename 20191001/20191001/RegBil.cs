@@ -10,22 +10,21 @@ using System.Windows.Forms;
 
 namespace _20191001
 {
-    public partial class Form1 : Form
+    public partial class RegBil : Form
     {
-        public Form1()
+        public RegBil()
         {
             InitializeComponent();
 
-            label1.Text = "Välkommen!";
-            label2.Text = "Vad vill du göra?";
-            button1.Text = "Registrera ny bil";
-            button2.Text = "Visa bilar i lager";
+            label1.Text = "Registrerings nummer";
+            label2.Text = "Märke";
+            label3.Text = "Modell";
+            label4.Text = "Kilometer";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RegBil MyRegBilForm = new RegBil();
-            MyRegBilForm.ShowDialog();
+
         }
     }
 }
