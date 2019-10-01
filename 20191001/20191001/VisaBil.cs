@@ -15,6 +15,17 @@ namespace _20191001
         public VisaBil()
         {
             InitializeComponent();
+
+            label1.Text = "Bilar i lager";
+            button1.Text = "Visa bilar";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            foreach (Bilar b in MyCars)
+            {
+
+            }
         }
     }
 }
