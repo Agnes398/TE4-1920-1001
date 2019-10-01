@@ -22,9 +22,9 @@ namespace _20191001
 
         private void button1_Click(object sender, EventArgs e)
         {
-            foreach (Bilar b in MyCars)
+            foreach (Bilar b in 20191001.MyCars)
             {
-
+                listBox1.Items.Add(b);
             }
         }
     }

@@ -12,7 +12,10 @@ namespace _20191001
 {
     public partial class RegBil : Form
     {
-        System.Collections.ArrayList MyCars = new System.Collections.ArrayList();
+        //public System.Collections.ArrayList MyCars = new System.Collections.ArrayList();
+
+        Bilar b = new Bilar();
+
         public RegBil()
         {
             InitializeComponent();
@@ -28,7 +31,7 @@ namespace _20191001
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MyCars.Add(new Bilar() { RegNum = textBox1.Text, Märke = textBox2.Text, Modell = textBox3.Text, Km = textBox4.Text });
+            b.MyCars.Add(new Bilar() { RegNum = textBox1.Text, Märke = textBox2.Text, Modell = textBox3.Text, Km = textBox4.Text });
             textBox1.Text = string.Empty;
             textBox2.Text = string.Empty;
             textBox3.Text = string.Empty;
